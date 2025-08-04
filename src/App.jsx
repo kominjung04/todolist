@@ -7,6 +7,8 @@ function App() {
   useEffect(() => {
     setTime(updateTime());
 
+    // setInterval: 일정한 간격마다 함수 반복 실행
+    // 1초마다 업데이트 
     const interval = setInterval(() => {
       setTime(updateTime());
     },1000);
