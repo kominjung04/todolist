@@ -5,7 +5,7 @@
   text-align: center;
   
 }
-
+ 
 *{
   background-color: #F7EED3;
 }
@@ -29,3 +29,11 @@ button{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.time{
+  color: black;
+  font-weight: bold;;
+  font-size: 70px;
+  position: fixed;
+  top:10px;
+  left:10px;
+}
