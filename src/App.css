@@ -13,11 +13,13 @@
 h1{
   color: black;
 }
+
 input{
   background-color: white;
   height: 40px;
   width: 600px;
   color: black;
+  
 }
 
 button{
@@ -36,4 +38,19 @@ button{
   position: fixed;
   top:10px;
   left:10px;
+}
+
+.date{
+  color:black;
+  font-weight: bold;
+  font-size: 70px;
+  position: fixed;
+  bottom: 10px;
+  right:10px;
+}
+
+.input{
+  position:fixed;
+  top:130px;
+  left:750px;
 }
